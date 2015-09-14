@@ -30,7 +30,8 @@
             $("#menu").mmenu({
                "extensions": [
                   "effect-zoom-menu",
-                  "theme-dark"
+                  "theme-white",
+                  "pageshadow"
                   
                ],
                "counters": true,
@@ -61,7 +62,9 @@
                                             ]
                   }
                ],
+               "autoHeight": true,
                "sectionIndexer": true
+
             });
          });
       </script>
@@ -72,7 +75,7 @@
 	}
 	li
 	{
-		/*color: #0082ad;*/
+		color: black;
 		font-size: 1em;
 	
 	}
@@ -84,7 +87,7 @@
       <div class="page">
          <div class="header" style="background-color:#0082ad;'padding:22px'">
             <a href="#menu"></a>
-           <b id="ruta"> Inicio </b>
+           <p id="ruta"> Inicio </p>
          </div>
          <div class="content" id="contenido">
             
@@ -105,20 +108,18 @@
             <li>
             <a href="nosotros.html" data-hash="#nosotros" >
            <img src="img/nosotros.png"> Nosotros</a>
+            </li>
 
-               <ul>
-                  <li>
+             <li>
                   <a href="mision.html" data-hash="#mision">
                    <img src="img/mision.png">Mision</a></li>
-                  <li>
+               <li>
                   <a href="vision.html" data-hash="#vision">
                    <img src="img/vision.png">Vision</a></li>
-                  <li>
+              <li>
                   <a href="nosotros.html" data-hash="#nosotros">
                   <img src="img/cada_uno.png">Nuestro grupo</a></li>
-               </ul>
 
-            </li>
             <li>
             <a href="contactenos.html" data-hash="#contactenos">
              <img src="img/contactenos.png">Contactenos</a></li>
