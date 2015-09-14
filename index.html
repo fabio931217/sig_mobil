@@ -8,12 +8,11 @@
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 
       <!-- Latest compiled and minified CSS -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-      <link type="text/css" href="css/demo.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link type="text/css" href="css/demo.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.widescreen.css" media="all and (min-width: 1430px)" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link type="text/css" href="css/jquery.mmenu.all.css" rel="stylesheet" />
@@ -25,11 +24,14 @@
          jQuery(document).ready(function( $ ) {
             $("#menu").mmenu({
                "extensions": [
-                  "effect-zoom-menu",
-                  "theme-white",
+                 
+                  "theme-light",
                   "pageshadow"
                   
                ],
+                "offCanvas": {
+                  "zposition": "front"
+               },
                "counters": true,
                "searchfield": {
                   "placeholder": "Buscar",
